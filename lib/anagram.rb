@@ -2,13 +2,11 @@
 
 class Anagram
 
-    def initialize(word)
-        @word=word
+    def initialize(w)
+        @w=w
     end
 
-    def match(array_words)
-        array_words.select do |ind_word|
-            ind_word.chars.sort == @word.chars.sort
-        end
+    def match(a)
+        a.select {|i| i.chars.sort == @w.chars.sort}
     end
 end
