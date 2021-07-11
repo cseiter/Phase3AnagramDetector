@@ -84,3 +84,4 @@ comparison:
 
 [anagrams]: http://www.dictionary.com/browse/anagram
 [array_shortcut]: http://stackoverflow.com/questions/1274675/ruby-what-does-warray-mean
+# Phase3AnagramDetector
